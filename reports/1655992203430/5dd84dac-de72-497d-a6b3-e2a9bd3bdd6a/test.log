@@ -1,0 +1,81 @@
+[2022-06-23 01:50:08] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-23 01:50:08] [1] [INFO] TEST [demo - getPostsCommentByIdTest] STARTED at [16:50:08 2022-06-23]
+[2022-06-23 01:50:09] [1] [INFO] Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/comments?postId=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 23 Jun 2022 13:50:10 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1655976030
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"5e6-4bSPS5tq8F8ZDeFJULWh6upjp7U"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 16222
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3EMLK7QoBeJx8ideew9vcDOGWOSLDXp6G1x1qBv9YV8ll4KxuPiqw3nUT7ZxWHI8CaC96L%2BafaPZXgO6HP81f1Q16Ftk%2BhxFUnm%2F0mHvq3aeNtZBcVGi3U5OoZgT36jQGcptiTwm2BO7oHIl6eyh"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 71fdb0f22f87727e-HAM
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+[
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    },
+    {
+        "postId": 1,
+        "id": 4,
+        "name": "alias odio sit",
+        "email": "Lew@alysha.tv",
+        "body": "non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    },
+    {
+        "postId": 1,
+        "id": 5,
+        "name": "vero eaque aliquid doloribus et culpa",
+        "email": "Hayden@althea.biz",
+        "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+    }
+]
+
+[2022-06-23 01:50:09] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2022-06-23 01:50:09] [1] [INFO] Validation against Json schema successfully passed
+[2022-06-23 01:50:09] [1] [INFO] TEST [demo - getPostsCommentByIdTest] PASSED at [16:50:09 2022-06-23]

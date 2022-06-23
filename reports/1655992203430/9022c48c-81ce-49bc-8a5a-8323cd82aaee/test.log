@@ -1,0 +1,50 @@
+[2022-06-23 01:50:10] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-23 01:50:10] [1] [INFO] TEST [demo - getPostsOneTest] STARTED at [16:50:10 2022-06-23]
+[2022-06-23 01:50:10] [1] [INFO] Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 23 Jun 2022 13:50:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1651179326
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 25843
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TULX1tIOYTO1mhpKr%2BPbECSGK72U05X5Sq%2FGPZDq96oazWiW0hgE%2BX0stv%2BhXXUJLCQKzEtLiy%2BgoqvDZxsFrr9dajll%2FZ4KTC3xaWF5TzhNQs9YWPy4jwGrOrNNfrFGOg3ESXheq1yxigTdcxTH"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 71fdb0f9df7ad463-HAM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+[2022-06-23 01:50:10] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2022-06-23 01:50:10] [1] [INFO] Validation against Json schema successfully passed
+[2022-06-23 01:50:10] [1] [INFO] TEST [demo - getPostsOneTest] PASSED at [16:50:10 2022-06-23]
